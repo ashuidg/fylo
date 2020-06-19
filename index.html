@@ -6,21 +6,36 @@
  <!-- style.css -->
   <link rel="stylesheet" href="style.css">
  <!-- favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Fylo data storage component</title>
+ <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+ <!-- font -->
+ <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+ <!-- title  -->
+ <title> Fylo data storage component</title>
+
 </head>
+
 <body>
-  <div class="left"> i am left</div>
-  <div class="right">
-    <p>You’ve used 815 GB of your storage</p>
-    <div class="quote"> 185 GB Left</div>
-    <div class="process"></div>
-    <div>0 GB</div>
-    <div>1000 GB </div>
+
+  <div class="left"> 
+    <img class="logo" src="images/logo.svg" alt="logo">
+    <div class="icon document"> <img src="images/icon-document.svg" alt="document"></div>
+    <div class="icon folder"> <img src="images/icon-folder.svg" alt="folder"></div>
+    <div class="icon upload"> <img src="images/icon-upload.svg" alt="upload"></div> 
   </div>
-  
-  
-  
+
+  <div class="right">
+    <div class='r-container'>
+    <p>You’ve used <span class='gb'>815 GB</span> of your storage</p>
+    <div class="quote"> <span class='bold'>185 </span> GB Left</div>
+    <div class='p-container'>
+      <div class="process">
+        <div class='circle'></div>
+  </div>
+</div>
+    <div class="gb">0 GB</div>
+    <div class="gb l-gb">1000 GB </div>
+  </div>
+  </div>
 
   
 </body>

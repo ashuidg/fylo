@@ -1,14 +1,146 @@
-body{
-background-image: url('images/bg-desktop.svg');
-background-repeat: no-repeat;
-min-height: 100vh;
-background-position: bottom;
+*{}
+
+body{ 
+    position: relative;
+    background-image: url('images/bg-desktop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color:hsl(229, 57%, 11%);
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+
 }
 
 .left{
-
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+    left: calc(50vw - 450px);
+    margin-top: calc(50vh - 140px);
+    width: 330px;
+    height: 200px;
+    background-color: hsl(228, 56%, 26%);
+    
 }
 
+.icon{
+    position: absolute;
+    display: block;
+    padding: 5px;
+    top: 55%;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    justify-content: center;
+    background-position: center;
+    background-color: hsl(229, 57%, 11%) ;
+    border-radius: 10px;
+    
+}
+
+.document{
+    left: 12%;
+}
+
+.folder{
+    left: 32%;
+}
+
+.upload{
+    left: 52%;
+}
+
+
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 12%;
+    
+
+}
 .right{
-
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+    background-color: hsl(228, 56%, 26%) ;
+    height: 150px;
+    width: 700px;
+    margin-top: calc(50vh - 90px);
+    left: calc(50vw - 90px);
+    color: #fff;
+    
 }
+.r-container{
+    position: absolute;
+    left: 8%;
+    padding-top: 2%;
+}
+
+.quote{
+    display: inline-block;
+    position: absolute;
+    font-weight: 700;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    right: 0;
+    top: -30px;
+    background-color: #fff;
+    color: #000;
+}
+
+.gb,p{
+    display: flex;
+    font-weight: 400;
+}
+
+.gb{
+    position: absolute;
+    font-weight: bold;
+    display: inline;
+    padding-top: 10px;
+}
+
+.bold{
+    font-weight: bolder,1000;
+    font-size: 35px;
+}
+
+.l-gb{
+    left: 520px;
+}
+.p-container{
+    border-radius: 20px;
+    height: 18px;
+    width: 580px;
+    background-color: hsl(229, 57%, 11%) ;
+}
+.process{
+    position: absolute;
+    border-radius: 10px;
+    padding: 2px;
+    height: 10px;
+    width: 450px;
+    background-image: linear-gradient(to right,hsl(6, 100%, 80%) , hsl(335, 100%, 65%) );
+}
+
+.circle{
+    position: relative;
+    display: block;
+    left: 440px;
+    top:-1px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+}
+
+@media only screen and (max-width: 1440px);{
+   
+}
+
+@media screen and (min-width: 375px);
